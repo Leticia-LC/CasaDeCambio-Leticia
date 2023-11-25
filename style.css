@@ -1,5 +1,5 @@
 body {
-    background-color: #a8cae8; 
+    background-color: #a8cae8;
     font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
@@ -8,8 +8,8 @@ body {
     margin: 0;
 }
 
-h1{
-    color:#5f7fde;
+h1 {
+    color: #5f7fde;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,19 +23,41 @@ h1{
 label, select, input, button, output {
     margin: 10px 0;
     font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+
 }
 
 button {
-    background-color: #4682b4; 
+    background-color: #4682b4;
     color: #fff;
-    padding: 10px;
+    padding: 15px; 
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
-
 }
 
 button:hover {
-    background-color: #4169e1; 
+    background-color: #4169e1;
+}
+
+.input-custom {
+    width: 200px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.select-custom{
+    width: 200px;
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.select-custom2{
+    width: 200px;
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
 }
