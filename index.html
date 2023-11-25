@@ -1,23 +1,38 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Cambio</title>
+    <link rel="stylesheet" href="style.css">
 
-    <label for="idValor">Valor:</label>
-    <input type="number" name="nmValor" id="idValor">
+</head>
+<body>
+    <div class="container">
 
-    <label for="idMoedas">De:</label>
-    <select name="" id="idMoedas">
-    <option value="BRL">Real</option>
-    </select>
+        <h1>Casa de Cambio</h1>
 
-    <label for="idMoedas">Para:</label>
-    <select name="" id="idMoedas2">
-    <option value="BRL">Real</option>
-    </select>
-
+        <label for="idValor">Valor:</label>
+        <input type="number" name="nmValor" id="idValor">
     
-    <br><br>
+        <label for="idMoedas">De:</label>
+        <select name="" id="idMoedas">
+            <option value="BRL">Real</option>
+        </select>
+    
+        <label for="idMoedas2">Para:</label>
+        <select name="" id="idMoedas2">
+            <option value="BRL">Real</option>
+        </select>
+        
+        <br><br>
+    
+        <button type="button" id="idButton">Cotar</button><br><br>
+    
+        <output id="idOut">Resultado:</output>
+    
+    </div>
 
-    <button type="button" id="idButton">Cotar</button><br><br>
+</body>
+</html>
 
-    <output id="idOut"></output>
-
-</div>

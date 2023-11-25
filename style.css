@@ -1,0 +1,41 @@
+body {
+    background-color: #a8cae8; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    color:#5f7fde;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label, select, input, button, output {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #4682b4; 
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button:hover {
+    background-color: #4169e1; 
+}
